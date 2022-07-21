@@ -91,5 +91,14 @@
       ],
       "Resource" : "*"
     }
+  ],
+  "S3UploadOnly": [
+    {
+      "Effect" : "Allow",
+      "Action" : [
+        "s3:PutObject"
+      ],
+      "Resource" : "*"
+    }
   ]
 }
